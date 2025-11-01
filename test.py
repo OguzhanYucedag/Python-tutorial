@@ -13,6 +13,8 @@ class Araba():
 araba = Araba("pegeout","kırmızı","300",4)
 model = araba.get_model()
 
+
 print(model)
 print(araba.model)
+print(araba.renk)
 
