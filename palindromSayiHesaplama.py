@@ -8,6 +8,9 @@ for i in range(1,sayıyaKadar +1):
         pSayı += 1
         pToplam += int(x)
         pBasamak[len(x)-1] += 1
+        print("***")
+    
+    
     
 
 print("Palindrom sayı adedi :", pSayı)
