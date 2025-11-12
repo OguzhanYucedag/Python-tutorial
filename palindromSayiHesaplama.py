@@ -5,7 +5,7 @@ sayıyaKadar = int(input("Kaçıncı sayıya kadar palindrom sayıları saysın 
 for i in range(1,sayıyaKadar +1):
     x = str(i)
     if x == x[::-1]:
-        pSayı += 1#pSayı = pSayı + 1#pSayı++
+        pSayı += 1#pSayı = pSayı + 1#pSayı++s
         pToplam += int(x)#pToplam = pToplam + 1
         pBasamak[len(x)-1] += 1#12=>'12'
         
